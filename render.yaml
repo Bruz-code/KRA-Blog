@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kra-blog
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /
+        destination: /kra-etims-stock-management-blog%20(2).html
